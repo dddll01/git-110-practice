@@ -1,0 +1,41 @@
+From 3acfeab179322f4bd34f02e4f2abca077db1579e Mon Sep 17 00:00:00 2001
+From: dddll01 <linuxzdwa22@mail.ru>
+Date: Wed, 3 Dec 2025 10:35:28 +0300
+Subject: [PATCH] Hotfix
+
+---
+ file2.txt                | Bin 16 -> 0 bytes
+ fix.txt                  | Bin 0 -> 12 bytes
+ file1.txt => renamed.txt | Bin
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 file2.txt
+ create mode 100644 fix.txt
+ rename file1.txt => renamed.txt (100%)
+
+diff --git a/file2.txt b/file2.txt
+deleted file mode 100644
+index 566b1afe84db600887f8f289a98f5d91173c78c5..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+HcmV?d00001
+
+literal 16
+XcmezWFPtHtp@<=eA%%gLfr|kEGfV^>
+
+diff --git a/fix.txt b/fix.txt
+new file mode 100644
+index 0000000000000000000000000000000000000000..3bdf715e5edbfec210f19bcef30f9b94685faf25
+GIT binary patch
+literal 12
+TcmezWFO4CSp@M;zfr|kEAw~mS
+
+literal 0
+HcmV?d00001
+
+diff --git a/file1.txt b/renamed.txt
+similarity index 100%
+rename from file1.txt
+rename to renamed.txt
+-- 
+2.51.0.windows.1
+
